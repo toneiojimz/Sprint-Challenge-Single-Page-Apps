@@ -13,9 +13,7 @@ export default function WelcomePage() {
           alt="rick"
         />
       </header>
-      <div>
-        <Route exact path= '/' component={Characterlist}/>
-      </div>
+     
     </section>
   );
 }
