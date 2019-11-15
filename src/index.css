@@ -27,13 +27,40 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
+
 .main-img {
   display: block;
   border-radius: 100%;
   margin: 0 auto;
-} */
+}
 
 header h1 {
   text-align: center;
+}
+
+.char{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px;
+  
+
+
+}
+
+.character-list{
+
+  background: orange;
+  color: green;
+  padding: 10px;
+  min-height: 170px;
+  border-radius: 5px;
+  margin: 10px;
+  align-items: center;
+
+}
+
+.ui-center{
+  color: orangered;
 }
