@@ -9,6 +9,7 @@ import CharacterList from "./components/CharacterList.js";
 
 
 
+
 export default function App() {
   return (
     <main>
@@ -17,8 +18,12 @@ export default function App() {
       <Link to='/'>
         <button className="home-button">Take me home!</button>
       </Link>
-      <Route exact path ='/'/>
-      <SearchForm/>
+      <Link to='/SearchForm'>
+        <button className="characters-button">Characters</button>
+        <Route exact path={'/SearchForm'} component={SearchForm}/>
+      </Link>
+      
+      
       
      
       
